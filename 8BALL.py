@@ -4,12 +4,12 @@ import random
 
 
 answers = [
-    'TROLL.',
-    'TROLL.',
-    'TROLL.',
-    'TROLL.',
-    'TROLL.',
-    'TROLL.',
+    'No staus Message.',
+    'yes.',
+    'no.',
+    'maybe.',
+    'mc.skilstak.com.',
+    'hi.',
 ]
 
 
