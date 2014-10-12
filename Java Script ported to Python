@@ -1,0 +1,20 @@
+from turtle import Turtle
+from random import random
+
+bob = Turtle()
+bob.pensize(7)
+def random_color():
+    return (random(),random(),random())
+
+
+    bob.speed(0)
+
+
+for count in range(90):
+    bob.pencolor(random_color())
+    bob.forward(4)
+    bob.forward(10)
+    bob.forward(100)
+    bob.right(91)
+    
+    i ported this as good as could
