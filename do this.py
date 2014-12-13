@@ -8,8 +8,8 @@ print('What is your age')
 age = input('>')
 print('Ok you are',age,'.')
 print('What is your School')
-School = input('>')
-print('',School,' well that school sounds nice')
+school = input('>')
+print('',school,' well that school sounds nice')
 
 
 
