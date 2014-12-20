@@ -14,13 +14,29 @@ print('',school,' well that school sounds nice')
 print('Whats your Favorite game?')
 game = input('>')
 print('ok',game,' sounds fun')
+<<<<<<< HEAD
 while fnaf not ('yes','no'):
+=======
+
+>>>>>>> origin/master
 
     print('do you like FNAF?')
     fnaf = input('>')
     if fnaf == 'yes':
+<<<<<<< HEAD
         print('I like FNAF also')
     if fnaf == 'no':
         print('man you dont like FNAF')
     if fnaf == 'maybe':
     
+=======
+print('I like FNAF also')
+    if fnaf == 'no':
+    print('man you dont like FNAF')
+print('last question:what rocks more pika Girl a.k.a Michyela or Gabe miller(put Pika girl for michyela)')
+answer = input('>')
+if answer == 'pika Girl':
+    print('Incorrect')
+if answer == 'Gabe miller':
+    print('Correct')
+>>>>>>> origin/master
