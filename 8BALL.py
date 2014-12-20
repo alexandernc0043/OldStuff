@@ -20,4 +20,7 @@ while True:
     question = input('> ')
     answer = random.choice(answers)
     print(answer)
-
+if input == 'no':
+    print('Well i like Skilstak')
+if input == 'yes':
+    print('Well i like Skilstak also')
