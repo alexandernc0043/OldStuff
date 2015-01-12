@@ -4,12 +4,12 @@ import random
 
 
 answers = [
-    'No staus Message.',
+    'maybe.',
     'yes.',
     'no.',
-    'maybe.',
-    'mc.skilstak.com.',
-    'hi.',
+    'fart.',
+    'poo.',
+    'sopa.',
 ]
 
 

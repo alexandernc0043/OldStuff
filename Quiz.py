@@ -1,6 +1,6 @@
-print('Do you do robotics in SkilStak_ (yes or no)')
+print('Do you Love me')
 answer = input('>')
 if answer == 'yes':
-    print('I do too')
+    print('Let i love you too')
 if answer == 'no':
-    print('Join Robotics Classes Plz')
+    print('Please Love me')
