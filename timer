@@ -1,0 +1,49 @@
+#!/bin/sh
+seconds=0
+hundredths=0
+minutes=0
+hours=0
+days=0
+weeks=0
+months=0
+while true; do
+  clear
+  echo ${SOL_yellow}seconds:${SOL_reset}
+  echo $seconds
+  echo ${SOL_yellow}hundreds:${SOL_reset}
+  echo $hundredths
+  echo ${SOL_yellow}minutes:${SOL_reset}
+  echo $minutes
+  echo ${SOL_yellow}hours:${SOL_reset}
+  echo $hours
+  echo ${SOL_yellow}weeks:${SOL_reset}
+  echo $weeks
+  echo ${SOL_yellow}months:${SOL_reset}
+  echo $months
+  hundredths=`expr $hundredths + 1`
+  if [ $hundredths -eq 100 ]
+  then
+    seconds=`expr $seconds + 1`
+  fi
+  if [ $seconds -eq 60 ]
+  then
+    minutes=`expr $minutes + 1`
+    fi
+  if [ $minutes -eq 60 ]
+  then
+    hours=`expr $hours + 1`
+  fi
+  if [ $hours -eq 24 ]
+  then
+    days=0`expr $days + 1`
+  fi
+  if [ $days -eq 7 ]
+  then
+    weeks=0`expr $weeks + 1`
+  fi
+  if [ $weeks -eq 3 ]
+  then
+    months=0`expr $months + 1`
+  fi
+  sleep 0.01
+done
