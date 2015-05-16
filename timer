@@ -5,8 +5,9 @@ minutes=0
 hours=0
 days=0
 weeks=0
+
 while true; do
-  clear
+  echo ${SOL_clear}
   echo ${SOL_yellow}weeks:${SOL_reset}
   echo $weeks
   echo ${SOL_yellow}days:${SOL_reset}
@@ -19,46 +20,37 @@ while true; do
   echo $seconds
   echo ${SOL_yellow}hundredths:${SOL_reset}
   echo $hundredths
+
   hundredths=`expr $hundredths + 1`
+  sleep 0.01
+
   if [ $hundredths -eq 100 ]
   then
     seconds=`expr $seconds + 1`
+    hundredths=0
   fi
+
   if [ $seconds -eq 60 ]
   then
     minutes=`expr $minutes + 1`
-    fi
+    seconds=0
+  fi
+
   if [ $minutes -eq 60 ]
   then
     hours=`expr $hours + 1`
+    minutes=0
   fi
+
   if [ $hours -eq 24 ]
   then
     days=0`expr $days + 1`
+    hours=0
   fi
+
   if [ $days -eq 7 ]
   then
     weeks=0`expr $weeks + 1`
+    day=0
   fi
-  if [ $hundredths -eq 100 ]
-  then
-    hundredths=0`expr -  100`
-  fi
-  if [ $seconds -eq 60 ]
-  then
-    seconds=0`expr - 60`
-  fi
-  if [ $minutes -eq 60 ]
-  then
-    minutes=0`expr - 60`
-  fi
-  if [ $hours -eq 24 ]
-  then
-    hours=0`expr - 24`
-  fi
-  if [ $days -eq 7 ]
-  then
-    days=0`expr - 7`
-  fi
-  sleep 0.01
 done
