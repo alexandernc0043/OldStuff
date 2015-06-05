@@ -1,0 +1,21 @@
+#!/bin/sh
+
+echo ${SOL_clear}
+echo ${SOL_orange}Who wanting to cross
+echo "Must answer me these qestions three"
+echo "'Ere the other side he see" ${SOL_reset}
+
+echo ${SOL_orange}what is your name ${SOL_reset}${SOL_red}
+read name
+name=`echo $name | tr '[:upper:]' '[:lower:]'`
+
+echo ${SOL_orange}what is your Quest $name ${SOL_reset} ${SOL_red}
+read quest
+
+if [ "$name" = lancelot -o "$name" = galahad ]; then
+  echo ${SOL_orange}what is your favorite color${SOL_reset}
+  echo ${SOL_red}
+  read color
+fi
+echo ${SOL_reset}
+
