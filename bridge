@@ -1,21 +1,28 @@
 #!/bin/sh
 
+
+ask()
+{
+  question="$1"
+  color="$2"
+  echo $color$question$SOL_reset
+  printf '> '
+  read answer
+  answer=`echo $answer | tr '[:upper:]' '[:lower:]'`
+}
+
 echo ${SOL_clear}
 echo ${SOL_orange}Who wanting to cross
 echo "Must answer me these qestions three"
 echo "'Ere the other side he see" ${SOL_reset}
 
-echo ${SOL_orange}what is your name ${SOL_reset}${SOL_red}
-read name
-name=`echo $name | tr '[:upper:]' '[:lower:]'`
-
-echo ${SOL_orange}what is your Quest $name ${SOL_reset} ${SOL_red}
-read quest
+ask "What is your name?"
+name=$answer
+ask "what is your Quest?"
 
 if [ "$name" = lancelot -o "$name" = galahad ]; then
-  echo ${SOL_orange}what is your favorite color${SOL_reset}
-  echo ${SOL_red}
-  read color
+  ask "What is your favorite color?"
+elif [ "$name" = "Sir Robin" ]; then
+  ask "What is the captil of Assyira"
 fi
-echo ${SOL_reset}
 

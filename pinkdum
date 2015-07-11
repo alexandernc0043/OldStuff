@@ -1,0 +1,23 @@
+#!/bin/sh
+
+
+
+echo ${SOL_magenta}Welcome to the ${SOL_red}bloody Fluffy Unicrons${SOL_reset}${SOL_magenta} quiz${SOLreset}
+echo "
+
+what color are the unicorns?
+
+"
+
+q1() {
+  ask "what color are the unicorns?" $SOL_yellow
+  if [ "$answer" == "bloody" ]; then
+    is_correct=true
+  fi
+   }
+read answer
+if [ "$answer" == "bloody" ]; then
+  echo ${SOL_cyan}Correct${SOL_reset}
+else ${SOL_red}Incorrect${SOL
+
+
