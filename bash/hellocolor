@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source colors.sh
+echo -e "${c_yellow}Hello what is your name:"${c_cyan}
+read name
+echo -e "${c_red}Hello ${c_cyan}$name"

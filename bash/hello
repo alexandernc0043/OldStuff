@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source colors.sh
+
+echo -e "${c_yellow}Hello Gabe"
+echo -e "${c_CYAN}GET NUKED CRUDER"
+echo -e "${c_YELLOW}HELLO WORLD"

@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+blue = '\033[0;34m'
+color = '\033[0;31m'
+clear = '\033[H\033[2J'
+
+print(clear)
+print(blue +'Skilstak'+ color + '_' +  color + ' Coding Arts any Questions like What it is? type info for info type what to find out what it is  ')
+what = input('>')
+if what == 'what':
+    print(blue + 'Skilstak'+ color + '_ is a Place were kids learn to code and learn in Minecraft With Command blocks')
+else:
+    print(color +'Email learn@skilstak.com'+ blue + ' Phone 704-310-6778')

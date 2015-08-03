@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear)
+print(c.red + 'What is your name' + c.reset)
+print(c.orange + 'What is your Quest' + c.reset)
+name = input(c.green + 'Name > ' + c.reset)
+quest = input(c.yellow + 'Quest > ' + c.reset )
+if quest == 'hit drew':
+    print(c.cyan + 'Thats awesome' + c.reset)
+if quest == 'Seek the holy grail':
+    print('how ' + c.red + 'Old ' + c.green + 'are you' + c.reset)
+    quest2 = input('')
+    print('what is your' + c.cyan + 'Favorite Color' + c.reset)
+    quest3 = input('> ')
+    if quest3 == 'blue':
+        print(c.red + 'Game Over' + c.reset)
+        print(c.cyan + 'blue is evil' + c.reset)

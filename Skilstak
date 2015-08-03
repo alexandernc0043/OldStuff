@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+blue = '\033[0;34m'
+color = '\033[0;31m'
+
+print(blue +'Skilstak'+ color + '_' +  color + ' Coding Arts')

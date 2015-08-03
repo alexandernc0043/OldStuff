@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+blue = '\033[0;34m'
+color = '\033[0;31m'
+print('Welcome To Alex Prechtels Quiz')
+print('1. When did i learn vi?')
+answer = input('> ')
+if answer  == '10':
+    print(color + 'Correct')
+else:
+    print('Incorrect')
+print(blue +'Skilstak'+ color + '_' +  color + ' Coding Arts')

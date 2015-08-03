@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source colors.sh
+while :
+do
+
+  echo -e "${c_cyan}N${c_red}y${c_yellow}a${c_orange}n"
+done
