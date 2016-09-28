@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+<button onclick="Google">
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</button>
+<script>
+function alex() {
+ window.location='http://www.google.com';
+ 
+</script>
+</body>
+</html>
