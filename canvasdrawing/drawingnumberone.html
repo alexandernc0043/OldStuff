@@ -4,11 +4,20 @@
 <title></title>
 </head>
 <body>
-
+<canvas></canvas>
 <script>
-var c =
+var c = document.querySelector("canvas");
+var ctx = c.getContext("2d");
 
+ctx.beginPath();
+ctx.rect(20, 20, 150, 100);
+ctx.fillStyle = "red";
+ctx.fill();
 
+ctx.beginPath();
+ctx.rect(40, 40, 150, 100);
+ctx.fillStyle = "blue";
+ctx.fill();
 
 
 </script>
