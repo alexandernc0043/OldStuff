@@ -9,6 +9,10 @@ var C = {
   "xspeed": 0,
   "yspeed": 0,
   "file": "assets/background.jpg"
+    },
+    "p": {
+      "file":
+      "width"
     }
   }
 class Boot {
