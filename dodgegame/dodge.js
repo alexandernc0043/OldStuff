@@ -61,7 +61,7 @@ class Play {
 function restart() {
   game.state.start("Boot");
 }
-var game = new Phaser.Game(C.game.width,C.game.heght);
+var game = new Phaser.Game(C.game.width,C.game.height);
 game.state.add("Boot",Boot);
 game.state.add("Load", Load);
 game.state.add("Play", Play);
