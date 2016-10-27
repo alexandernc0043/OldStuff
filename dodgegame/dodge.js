@@ -15,6 +15,7 @@ var C = {
       "width": 128,
       "height": 128,
       "frames": 1,
+      "fps": 2,
       "startx": 160,
       "starty": 500
     }
@@ -46,7 +47,13 @@ class Play {
     console.log("Entered Play");
     this.bg = this.add.tileSprite(0,0,C.bg.width,C.bg.height,"bg");
     this.player = this.add.sprite(C.p.startx,C.p.starty,"player");
+    
+    this.player = this.add.tile.sprite(C.p.startx,C.p.starty,"player");
     this.player.anchor.set(0.5,0.5);
+    this.player.smoothed = false;
+    this.player.scale.set(1);
+    this.animations.add("anim");
+    this.animations.play("anim",C.p.fps,true);
     this.background = this.add.tileSprite(0,0,320,568,"bg");
     this.background.autoScroll(C.bg.xspeed,C.bg.yspeed);
   }
