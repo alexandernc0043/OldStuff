@@ -11,8 +11,12 @@ var C = {
   "file": "assets/background.jpg"
     },
     "p": {
-      "file":
-      "width"
+      "file": "assests/player.png",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "startx": 160,
+      "starty": 500
     }
   }
 class Boot {
@@ -39,7 +43,8 @@ class Load {
 
 class Play {
   create() {
-    console.log("Entere Play");
+    console.log("Entered Play");
+    this.bg = this.add.tileSprite(0,0,C.bg.width,C.bg
     this.background = this.add.tileSprite(0,0,320,568,"bg");
     this.background.autoScroll(C.bg.xspeed,C.bg.yspeed);
   }
