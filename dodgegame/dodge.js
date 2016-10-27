@@ -44,7 +44,9 @@ class Load {
 class Play {
   create() {
     console.log("Entered Play");
-    this.bg = this.add.tileSprite(0,0,C.bg.width,C.bg
+    this.bg = this.add.tileSprite(0,0,C.bg.width,C.bg.height,"bg");
+    this.player = this.add.sprite(C.p.startx,C.p.starty,"player");
+    this.player.anchor.set(0.5,0.5);
     this.background = this.add.tileSprite(0,0,320,568,"bg");
     this.background.autoScroll(C.bg.xspeed,C.bg.yspeed);
   }
