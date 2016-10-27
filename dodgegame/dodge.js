@@ -49,7 +49,7 @@ class Play {
     this.bg = this.add.tileSprite(0,0,C.bg.width,C.bg.height,"bg");
     this.player = this.add.sprite(C.p.startx,C.p.starty,"player");
     
-    this.player = this.add.tile.sprite(C.p.startx,C.p.starty,"player");
+    this.player = this.add.tileSprite(C.p.startx,C.p.starty,"player");
     this.player.anchor.set(0.5,0.5);
     this.player.smoothed = false;
     this.player.scale.set(1);
