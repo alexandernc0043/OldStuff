@@ -20,7 +20,7 @@ var C = {
       "starty": 500
 },
     "d": {
-      "file": "assets/dodgeme.jpg",
+      "file": "assets/dodgeme.png",
       "width": 64,
       "height": 64,
       "frames": 1,
