@@ -20,15 +20,15 @@ var C = {
       "starty": 500
 },
     "d": {
-      "file": "assets/dodgeme.jpg",
+      "file": "assets/dodgeme.png",
       "width": 64,
       "height": 64,
-      "frames": 1,
-      "fps":1,
+      "frames": 6,
+      "fps":6,
       "startx": 160,
-      "starty": 500,
-        },
-      }
+      "starty": 32
+      },
+}
 
 
 class Boot {
@@ -46,7 +46,7 @@ class Load {
     console.log("Loading...");
     this.load.image("bg",C.bg.file);
     this.load.spritesheet("player",C.p.file,C.p.width,C.p.height,C.p.fps);
-    this.load.image("dodge",C.d.file,C.d.width,C.d.height,C.d.frames);
+    this.load.spritesheet("dodge",C.d.file,C.d.width,C.d.height,C.d.fps);
   }
 
   create() {
@@ -67,11 +67,26 @@ class Play {
     this.player.scale.set(0.5);
     this.player.animations.add("anim");
     this.player.animations.play("anim",C.p.fps,true);
+
+    this.dodge = this.add.sprite(C.d.startx,C.d.starty,"dodge");
+    this.dodge.anchor.set(0.5,0.5);
+    this.dodge.smoothed = false;
+    this.dodge.scale.set(1);
+    this.dodge.animations.add("anim");
+    this.dodge.animations.play("anim",C.d.fps,true);
+  }
+  update() {
+    console.log("Play.update() called.");
   }
 }
+
 function restart() {
   game.state.start("Boot");
 }
+
+
+
+
 var game = new Phaser.Game(C.game.width,C.game.height);
 game.state.add("Boot",Boot);
 game.state.add("Load", Load);
