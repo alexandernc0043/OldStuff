@@ -27,7 +27,8 @@ var C = {
       "frames": 6,
       "fps":6,
       "startx": 160,
-      "starty": 32
+      "starty": 32,
+      "speed": 20,
       },
 }
 
@@ -89,7 +90,7 @@ class Play {
     }
   }
   render() {
-    game.debug.text("x: " + this.doge.x + ", y: " + this.doge.y, 4, 16);
+    game.debug.text("x: " + this.dodge.x + ", y: " + this.dodge.y, 4, 16);
   }
 }
 
