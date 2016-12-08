@@ -89,6 +89,10 @@ class Play {
     this.player.x += C.p.speed;
     }
   }
+  
+  this.dodge.y += C.d.speed;
+  
+
   render() {
     game.debug.text("x: " + this.dodge.x + ", y: " + this.dodge.y, 4, 16);
   }
