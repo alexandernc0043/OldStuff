@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Bad Eggs Online | The Eggpocalypse is here!</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.badeggsonline.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/js/html5.js"></script>
+	<![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="Bad Eggs Online &raquo; Feed" href="http://www.badeggsonline.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bad Eggs Online &raquo; Comments Feed" href="http://www.badeggsonline.com/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.badeggsonline.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/fonts/genericons.css?ver=2.09' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-style-css'  href='http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/style.css?ver=2013-07-18' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-content/plugins/simple-forum/resources/jscript/forum/sf-forum.js?ver=3.9.24'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.badeggsonline.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.badeggsonline.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='TERMS &amp; CONDITIONS' href='http://www.badeggsonline.com/terms-conditions/' />
+<link rel='next' title='BEO2 Forum' href='http://www.badeggsonline.com/beo2-forum/' />
+<meta name="generator" content="WordPress 3.9.24" />
+<link rel='shortlink' href='http://wp.me/P1P9Y4-82' />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.badeggsonline.com/wp-content/plugins/ban-user-by-ip/css/style.css" /><script charset="utf-8" type="text/javascript">var switchTo5x=false;</script><script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'wp.a0c4136e-7c86-4aa9-a5a6-7ab01846dfda'});var st_type='wordpress3.2.1';</script><link rel='canonical' href='http://www.badeggsonline.com/' />
+	<style type="text/css" id="twentythirteen-header-css">
+			.site-header {
+			background: url(http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/images/headers/circle.png) no-repeat scroll top;
+			background-size: 1600px auto;
+		}
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+				<!-- Easy Columns 2.1.1 by Pat Friedl http://www.patrickfriedl.com -->
+			<link rel="stylesheet" href="http://www.badeggsonline.com/wp-content/plugins/easy-columns/css/easy-columns.css" type="text/css" media="screen, projection" />
+			</head>
+
+<body class="home page page-id-498 page-template page-template-gametemplate-php single-author">
+	<div id="page" class="hfeed site">
+	  
+	  		<div id="headImg" class="headImg">
+				<a class="home-link" href="http://www.badeggsonline.com/" title="Bad Eggs Online" rel="home">
+				  <h1 class="site-title">Bad Eggs Online</h1>
+				  <h2 class="site-description">The Eggpocalypse is here!</h2>
+				  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/BEO2_Web_Header.png>
+				</a>
+			</div>
+			<div id="navbar" class="navbar">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+					<h3 class="menu-toggle">Menu</h3>
+					<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+					<div class="nav-menu"><ul><li class="page_item page-item-498 current_page_item"><a href="http://www.badeggsonline.com/">Play BEO2</a></li><li class="page_item page-item-9"><a href="http://www.badeggsonline.com/beo1/">Play BEO1</a></li><li class="page_item page-item-38"><a href="http://www.badeggsonline.com/about/">About</a></li><li class="page_item page-item-643"><a href="http://www.badeggsonline.com/the-app/">The App</a></li><li class="page_item page-item-41"><a href="http://www.badeggsonline.com/faq/">Rules/FAQ</a></li><li class="page_item page-item-43"><a href="http://www.badeggsonline.com/contact/">Contact Us</a></li><li class="page_item page-item-107"><a href="http://www.badeggsonline.com/forum/">BEO1 Forum</a></li><li class="page_item page-item-511"><a href="http://www.badeggsonline.com/beo2-forum/">BEO2 Forum</a></li></ul></div>
+				</nav><!-- #site-navigation -->
+			</div><!-- #navbar -->
+
+		<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+						
+				<article id="post-498" class="post-498 page type-page status-publish hentry">
+					<header class="entry-header">
+						
+					  	<div class="entry-titleBack">
+							<h1 class="entry-title">Play BEO2</h1>
+						</div>
+					</header><!-- .entry-header -->
+
+				  <div class="advert-banner">
+				  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- LargeBanner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-1859447611956843"
+     data-ad-slot="6097929848"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>				  </div>
+				  <div id="topImg" class="topImg">
+				  	<a class="iOS-ad" href="http://store.steampowered.com/app/708420/Broken_Ground/" title="BrokenGround" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/images/Adverts_BrokenGround_Wishlist.png>
+					</a>
+				  </div>
+				  <div class="advert-left">
+				   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Bad Eggs Skyscraper -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:120px;height:600px"
+     data-ad-client="ca-pub-1859447611956843"
+     data-ad-slot="6431184589"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>				   </div>
+				  <div class="bv-ads-column">
+					<a class="bv-ad" href="http://www.badviking.com/the-curse-of-the-mushroom-king/" title="COTMK" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/adverts/Advert_COTMK.png>
+				</a>
+					<a class="bv-ad" href="http://www.ninthrealmonline.com/" title="The Ninth Realm" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/adverts/Adverts_NinthRealm.png>
+				</a>
+					<a class="bv-ad" href="http://www.badviking.com/super-villainy/" title="Super Villainy" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/adverts/Advert_SV.png>
+				</a>
+					<a class="bv-ad" href="http://www.badviking.com/ninja-bear/" title="Ninja Bear" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/adverts/Advert_NinjaBear.png>
+				</a>
+					<a class="bv-ad" href="http://www.badviking.com/the-adventures-of-red/" title="Adventures of Red" target="_blank">
+					  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/adverts/Advert_AdventuresofRed.png>
+				</a>
+					</div>
+					<div class="entry-content-game">
+					  
+						<div align="center">
+<embed src="http://www.badeggsonline.com/Games/BadEggs2/BadEggsOnline2Loader.swf" width="800" height="600" allowScriptAccess="always" allowFullScreen="true" allowFullScreenInteractive="true" pluginspage="http://www.adobe.com/tw/products/flashplayer/" type="application/x-shockwave-flash" />
+</div>
+											
+				  </div><!-- .entry-content -->
+				  
+				 
+
+					<footer class="entry-meta">
+											</footer><!-- .entry-meta -->
+				</article><!-- #post -->
+					</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+		</div><!-- #main -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+		  	<div class="badviking-info">
+				Created and developed by Bad Viking.<br>
+				Bad Viking is indie game developers and brothers, Rob & John Donkin<br>
+				Bad Eggs Online, copyright © Bad Viking Ltd 2011 All rights reserved.<br>
+				<a href="http://www.badeggsonline.com/terms-conditions/" target="_blank">Terms and Conditions/ Privacy Policy</a>
+			</div>
+					  	<div class="social-link-container">
+			  	<a class="social-link" href="http://www.badviking.com" title="Bad Viking" target="_blank">
+				  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/BEO2_Web_Footer_Btn_BV.png>
+				</a>
+			  	<a class="social-link" href="http://www.twitter.com/BadVikingGames" title="Bad Viking on Twitter" target="_blank">
+				  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/BEO2_Web_Footer_Btn_Twitter.png>
+				</a>
+		  		<a class="social-link" href="http://www.facebook.com/BadVikingGames" title="Bad Viking on Facebook" target="_blank">
+				  <img src=http://www.badeggsonline.com/wp-content/themes/BEO2/images/BEO2_Web_Footer_Btn_Fb.png>
+				</a>
+			</div>
+		  	
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<link rel='stylesheet' id='basecss-css'  href='http://www.badeggsonline.com/wp-content/plugins/eu-cookie-law/css/style.css?ver=3.9.24' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.badeggsonline.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-content/themes/BEO2_TestTheme/js/functions.js?ver=2013-07-18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var eucookielaw_data = {"euCookieSet":null,"expireTimer":"360","scrollConsent":"0","networkShareURL":"","isCookiePage":"","isRefererWebsite":"","deleteCookieUrl":"http:\/\/www.badeggsonline.com\/?nocookie=1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.badeggsonline.com/wp-content/plugins/eu-cookie-law/js/scripts.js?ver=3.9.24'></script>
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201819.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'26969384',v:'ext',post:'498'});
+var load_cmc = function(){linktracker_init(26969384,498,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+</body>
+</html>
