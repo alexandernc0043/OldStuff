@@ -1,15 +1,14 @@
-head {
-	font-family: Comic Sans MS;
-	background: White;
-}
-body {
-	background: lightblue;
-	
-	
+h1 {
+  font-weight:20px;
+  color:green;
 }
 
 p {
-	font-size: 5em;
-	color: red;
-	font-family: Comic Sans MS;
+  color:red;
+  font-weight: 20px;
+  font-family: Comic Sans MS;
+}
+
+body {
+  background-color: lightblue;
 }
