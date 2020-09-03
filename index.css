@@ -7,3 +7,7 @@ body {
 	font-size: 10px;
 	font-family: Comic Sans MS;
 }
+
+p {
+	font-size: 5em;
+	background-color: red;
