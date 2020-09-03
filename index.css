@@ -4,10 +4,12 @@ head {
 }
 body {
 	background: lightblue;
-	font-size: 10px;
-	font-family: Comic Sans MS;
+	
+	
 }
 
 p {
 	font-size: 5em;
 	color: red;
+	font-family: Comic Sans MS;
+}
