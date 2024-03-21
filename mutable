@@ -1,0 +1,16 @@
+#!/bin/sh
+echo ${SOL_clear}${SOL_cyan}Multiplication Table${SOL_Reset}
+
+if [ -n "$1" ]; 
+then
+  num=$1
+  echo ${SOL_yellow}${SOL_Reset}
+else
+  echo ${SOL_red}Enter A Number To Begin the MULTIPLICATION TABLES${SOL_Reset}
+  read num 
+fi
+
+for m in `seq 1 12`; do
+  answer=`expr $m \* $num`
+  echo ${SOL_Orange} $num x $m = $answer
+done

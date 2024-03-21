@@ -1,0 +1,31 @@
+#!/bin/sh
+
+. utils.sh
+
+clear
+echo ${SOL_yellow}Welcome to MADLIBS${SOL_RESET}
+
+text=${SOL_yellow}'windows {windows_version} is better than {mac} by a lot
+better because {mac} is ODDD!!!!!! because they update like every week. 
+which is {dumb_word} because who wants a like 1,000 Dollar computer that updates
+a lot I would get a {window_pc} than a {mac}
+I dont like {mac} i rather get a {bad_computer} and use that
+than a {mac} i dont like them at all i get a 50Milion volt stun gun a shoot it
+at it {mac} and i then throw it out the window and he hit it with a golf
+club going 120mph and then throw it in a pool. Then put it in molten 
+aluminum and then put it in a valcano
+and never ever see a mac again in life i dont like  them my opipion
+I Dont like mac very much.'${SOL_reset}
+
+keys="windows_version
+mac
+dumb_word
+window_pc
+bad_computer"
+
+for key in $keys; do
+  ask "${SOL_cyan}Enter:${SOL_reset} ${SOL_green}$key${SOL_reset}"
+  text=`echo "$text" | sed "s/{$key}/$answer/g"`
+done
+
+echo "$text"

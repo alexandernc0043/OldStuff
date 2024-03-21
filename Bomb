@@ -1,0 +1,20 @@
+#!/bin/sh
+Build=0
+bombs=0
+while true; do
+  echo ${SOL_clear}
+  echo  ${SOL_red}
+   ______
+  |O    O|
+  |      |
+  |______|
+  {$SOL_reset}
+  echo $build
+  bombs=0`expr $bombs=0 + 1`
+  echo ${SOL_red}
+   _______
+  |   C4  |
+  |_______|
+  ${SOL_reset}
+  echo $bombs
+  
