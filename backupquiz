@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+print('Welcome To Alex Prechtels Quiz')
+print('1. When did i learn vi?')
+answer = input('> ')
+if answer  == '10':
+    print('Correct')
+else:
+    print('Incorrect')
+

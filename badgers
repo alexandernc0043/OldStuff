@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import colors as c
+import time
+
+for count in range(12):
+     print(c.red + 'Badgers ' + c.reset)
+for count in range(2):
+    print(c.cyan + 'MUSHROOM MAN' + c.reset)
+for count in range(12):
+    print(c.red + 'Badgers' + c.reset)
+print(c.green + 'SNAKE' + c.reset)

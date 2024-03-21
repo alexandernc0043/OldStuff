@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+
+
+reset = '\033[0;0m'
+blue = '\033[0;34m'
+red = '\033[0;31m'
+for count in range(100000000000000000000000000000000000000000):
+  print(red + 'Nyan' + blue + 'cat ' + red + 'Meow')

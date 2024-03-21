@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import colors as c
+
+print(c.cyan +"What is your name" + c.red + "?") 
+answer = input(c.orange +">");
+print(c.cyan +"Hi ", answer)

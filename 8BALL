@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+print('applepie@main:bin$ does not know anything')
+import colors as c
+import signal
+import random
+
+def handle_alarm(sig,frame):
+   print ('Hurry Up')
+
+def you_cant_kill_me(sig,frame):
+    print('Muahahahahaha, PUNY DUMB HUMAN. YOU CANT KILL ME')
+
+signal.signal(signal.SIGALRM, handle_alarm)
+signal.signal(signal.SIGINT, you_cant_kill_me)
+
+answers = [
+    'maybe.',
+    'yes.',
+    'no.',
+    'reply hazy and try again.',
+    'my sources say NO.',
+    'my sources say Yes',
+    'Try Again. Later',
+    'you stop asking me questions',
+    'encript this 4345475647563786 yeah its hard',
+    '
+]
+
+
+
+
+while True:
+    print("ask me a question")
+    question = input('> ')
+    answer = random.choice(answers)
+    print(answer)
+if input == 'no':
+    print('Well i like Skilstak')
+if input == 'yes':
+    print('Well i like Skilstak also')

@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+import colors as c
+print(c.clear)
+print(c.orange + "Do you like waffles?")
+waffles = input(c.red + "> ")
+if waffles == "yes":
+    print(c.orange + "Do you like pancakes")
+    pancakes = input(c.orange + "> ")
+    if pancakes == "yes":
+        print(c.orange + "can you eat a mouth full")
+        mouth = input(c.orange + "> ")
+        if mouth == "yes":
+            print(c.orange + "I cant too")
+        else:
+            print(c.orange + "well i can" + c.cyan + " :(")
+    else:
+            print(c.yellow + " I like pancakes" + c.cyan + " :(")
+
+else:
+        print(c.yellow + "I like waffles" + c.cyan + " :(")
